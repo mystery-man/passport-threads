@@ -1,0 +1,53 @@
+{
+  "name": "passport-threads",
+  "version": "1.0.0",
+  "description": "Threads authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "threads",
+    "auth",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "identity"
+  ],
+  "homepage": "https://github.com/mystery-man/passport-threads",
+  "bugs": {
+    "url": "https://github.com/mystery-man/passport-threads/issues"
+  },
+  "license": "ISC",
+  "author": "Zohaib Shakir (https://github.com/mystery-man)",
+  "main": "./lib/passport-threads/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mystery-man/passport-threads.git"
+  },
+  "scripts": {
+    "test": "gulp ci"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "passport-oauth": "1.0.x",
+    "pkginfo": "^0.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.x",
+    "chalk": "1.1.x",
+    "gulp": "3.9.x",
+    "gulp-coveralls": "0.1.x",
+    "gulp-istanbul": "0.10.x",
+    "gulp-jshint": "2.0.x",
+    "gulp-mocha": "2.2.x",
+    "jshint": "2.9.x",
+    "jshint-stylish": "2.2.x",
+    "rimraf": "2.5.x",
+    "run-sequence": "1.2.x"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
